@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function App() {
-  const [randomNumber, setRandomNumber] = useState(0);
+  const [randomNumber, setRandomNumber] = useState();
 
   const fetchRandomNumber = async () => {
     try {
