@@ -49,7 +49,7 @@ function App() {
   <div className='flex justify-center item-center'>
 
   
-  <div className='flex justify-center items-center h-[300px]  w-[300px] mt-32  mx-28' style={{
+  <div className='flex justify-center items-center h-[300px]   w-[300px] mt-32  mx-28' style={{
   border: "2px solid #FFF",
   background: "radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%)",
   boxShadow: "-5px -5px 250px 0px rgba(255, 255, 255, 0.02) inset",
@@ -57,7 +57,7 @@ function App() {
 }}>
 
   
-  <p className='text-white text-center text-[120px] font-inter'>{randomNumber}</p>
+  <p className='text-white text-center text-[120px] mx-28 lg:mx-0 font-inter'>{randomNumber}</p>
   </div>
   </div>
 
