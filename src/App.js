@@ -42,10 +42,10 @@ function App() {
  
   
   return (
-   <div>
+   <div className='bg-[#001974]'>
     <div className='flex justify-center items-center h-screen'>
 
-<div class=" p-6  border border-gray-200 bg-[#001974] w-[900px] h-[600px] rounded shadow dark:bg-gray-800 dark:border-gray-700">
+<div class=" p-6   w-[900px] h-[600px] rounded shadow dark:bg-gray-800 dark:border-gray-700">
   <div className='flex justify-center item-center'>
 
   
